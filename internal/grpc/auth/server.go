@@ -3,14 +3,13 @@ package authgrpc
 import (
 	"context"
 	"errors"
+	ssov1 "github.com/dariasmyr/protos/gen/go/sso"
 	"sso/internal/services/auth"
 	"sso/internal/storage"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-
-	ssov1 "github.com/dariasmyr/protos/gen/go/sso"
 )
 
 type serverAPI struct {

@@ -2,6 +2,8 @@ module sso
 
 go 1.23.0
 
+replace github.com/dariasmyr/protos v0.0.0-20241003104647-b0dde07bacb1 => ./protos
+
 require (
 	github.com/dariasmyr/protos v0.0.0-20241002222201-fbefacb1cf53
 	github.com/golang-jwt/jwt/v5 v5.0.0
